@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <link rel="stylesheet" href="/home/shaki/Documents/assignment01/sign.css">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="#">
+          <header>Sign up</header><br>
+        <div class="field name">
+        <div class="input-area">
+          <input type="text" placeholder="Name">
+          <i class="icon fas fa-user"></i>
+        </div>
+      </div>
+        <div class="field email error">
+        <div class="input-area">
+          <input type="email" placeholder="Email" id="email" name="email" required>
+          <i class="icon fas fa-at"></i>
+        </div>
+          <div class="error-txt" id="emailerr"></div>
+      </div>
+      <div class="field password error">
+        <div class="input-area">
+        <input type="Password" placeholder="password" required>
+          <i class="icon fas fa-key"></i>
+        </div>
+      <div class="error-txt" id="passworderr"></div>
+      </div>
+      <p>By clicking on sign up, you agree to <b>terms & conditions </b>and<b> privacy policy</b><p><br>
+      <b><input type="submit" value="SignUp">
+
+      </b><br><br>
+     <div class="log">Already have an account?
+       <a href="/home/shaki/Documents/assignment01/login.html"><b>Log in now</b></a>
+      </form>
+      <script src="/home/shaki/Documents/assignment01/sign.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+/* 2nd pagination section */
+
+.navpag {
+    text-align: center;
+
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+
+.navpag > div a {
+    color: gray;
+    padding: 1px 1px 10px 5px;
+}
+
+.navpag > div {
+    display: inline-block;
+    font-weight: bold;
+    background: rgb(242, 242, 242);
+    border: 30px;
+    padding: 3px 2px;
+}
+#nav_pag{
+  margin: -30px;
+}
+br{
+  padding: 5px;
+}
